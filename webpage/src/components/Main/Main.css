@@ -1,0 +1,93 @@
+.informacoes-container {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    box-sizing: border-box;
+    margin-top: 8%;
+}
+
+.informacoes-imagem-flecha {
+    width: 5.62263rem;
+  
+    stroke-width: 5px;
+    stroke: rgba(0, 173, 181, 0.20);
+    flex-shrink: 0;
+}
+
+
+.informacoes-titulo {
+    color: var(--color-3, #EEE);
+    font-family: Poppins;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 6rem; /* 100% */
+}
+
+.informacoes-subtitulo {
+    color: var(--color-3, #00ADB5);
+    font-family: Poppins;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem;
+    margin-top: 0;   
+    margin-bottom: 0;
+}
+
+.informacoes-botoes {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 50px;
+  
+}
+
+.botao-informacao-1 {
+    display: flex;
+    padding: 0.625rem 2rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    background: var(--color-3, #00ADB5);
+}
+
+.botao-informacao-1:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+.botao-informacao-2 {
+    display: flex;
+    padding: 0.625rem 2rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.5rem;
+    background: rgba(57, 62, 70, 0.75);
+    backdrop-filter: blur(2px);
+    text-decoration: none; 
+    color: #FFF;
+}
+
+.botao-informacao-2:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+
+.imagem2-informacoes {
+    margin-left: 250px;
+    background-image: url('../../../public/doodles\ mixed\ round.png');
+    width: 32.125rem;
+    height: 32.125rem;
+    flex-shrink: 0;
+}
+
+
+
+.container-conteudo {
+    display: flex;
+}
