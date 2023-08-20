@@ -1,0 +1,42 @@
+.navegacao-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.navegacao-logo {
+    color: var(--color-3, #EEE);
+    font-family: Oswald;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 120px;
+}
+
+.lista-navegacao {
+    display: flex;
+        margin-right: 100px;
+}
+
+.navegacao-item-lista {
+    list-style: none;
+    
+}
+
+.navegacao-link {
+    text-decoration: none;
+    margin: 30px;
+    color: var(--color-3, #EEE);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navegacao-link:hover {
+    color: #FFF;
+    text-decoration: underline;
+}

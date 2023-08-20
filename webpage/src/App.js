@@ -1,11 +1,13 @@
+import Navegacao from "./components/Navegacao";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Sobre from "./components/Sobre";
 
 function App() {
   return (
     <div>
+      <Navegacao/>
       <Header/>
-      <Main/>
+      <Sobre/>
     </div>
   );
 }

@@ -1,0 +1,91 @@
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre-conteudo-texto {
+    width: 24.3125rem;
+    margin-left: 15%;
+    
+}
+.sobre-mim-titulo {
+    color: var(--color-3, #EEE);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    line-height: normal;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
+.sobre-mim-subtitulo {
+    color: var(--color-3, #00ADB5);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.sobre-mim-texto {
+    color: rgba(238, 238, 238, 0.75);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+   
+}
+
+
+.sobre-mim-link {
+    color: #EEE;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+.sobre-mim-link:hover {
+    color: wheat;
+    text-decoration: underline;
+}
+
+.imagem-about-1 {
+    flex-shrink: 0;
+    stroke-width: 1.663px;
+    stroke: rgba(0, 173, 181, 0.50);
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.imagem-about-2 {
+    transform: rotate(14.817deg);
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.imagem-about-3 {
+   margin-left: 30%;
+   margin-top: 6%;
+   transform: rotate(173.545deg);
+}
+
+
+.imagem-about-4 {
+    margin-right: 200px;
+    margin-top: 60px;
+    width: 32.125rem;
+    flex-shrink: 0;
+    background-image: url(../../../public/doodle\ items.png);
+    background-repeat: no-repeat;
+}
