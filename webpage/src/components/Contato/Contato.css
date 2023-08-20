@@ -1,0 +1,127 @@
+.contato-container {
+    display: flex;
+    height: 64rem;
+    margin-left: 15%;
+}
+
+.contato-formulario-container {
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+.contato-titulo {
+    color: var(--color-3, #EEE);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem; /* 125% */
+    margin-bottom: 0;
+}
+
+.contato-subtitulo{
+    color: var(--color-3, #00ADB5);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-top: 0;
+}
+
+.imagens-contato {
+    display: flex;
+    align-items: center;
+}
+
+
+.imagem-1-contato {
+    height: 140px;
+    margin-bottom: 200px;
+    flex-shrink: 0;
+    stroke: rgba(0, 173, 181, 0.20);
+}
+
+.formulario-container {
+    display: flex;
+    margin-left: 20%;
+}
+
+.textos-container-contato {
+    display: flex;
+   
+    margin-top: 20%;
+   
+}
+
+.mensagem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+
+.contato-texto {
+    color: var(--color-3, #EEE);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+
+.inputs-container {
+    margin: 20px;
+}
+
+input {
+    border: none;
+}
+
+.input-mensagem {
+    display: flex;
+    height: 17.5rem;
+    padding: 1rem 16rem 1rem 1.5rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 1rem;
+    background: rgba(57, 62, 70, 0.50);
+    box-sizing: border-box;
+}
+
+
+.contato-input {
+    
+    margin-top: 10px;
+    display: flex;
+    padding: 15px 15px;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 1rem;
+    background: rgba(57, 62, 70, 0.50);
+}
+
+.mensagem-container {
+    display: flex;
+    width: 37.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+
+
+.contato-mensagem-link {
+    display: flex;
+    padding: 0.625rem 2rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.5rem;
+    background: var(--color-3, #00ADB5);
+    text-decoration: none;
+    color:#FFF;
+    margin-top: 2%;
+}
