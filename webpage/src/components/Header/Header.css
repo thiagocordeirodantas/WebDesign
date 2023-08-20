@@ -94,3 +94,14 @@
 .container-conteudo {
     display: flex;
 }
+
+
+.frame-header {
+    margin-top: 30%;
+    
+}
+
+.frame-container {
+    display: flex;
+    justify-content: right
+}

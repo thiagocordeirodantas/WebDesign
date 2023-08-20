@@ -14,7 +14,11 @@ const Header = () => {
                         <aside className="informacoes-botoes">
                             <a href="#" className="botao-informacao-1">Contrate me</a>
                             <a href="#" className="botao-informacao-2">Baixar CV <img src="download.svg"/></a>
+                           
                         </aside>
+                        <aside className="frame-container">
+                          <a className="frame-header" href=""><img  src="Frame 7.svg"/></a>    
+                           </aside>
                     </section>
                         <aside className="imagem-2">
                             <img className="imagem2-informacoes imagem-2" src="Group 2346.png"/>
